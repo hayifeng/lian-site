@@ -118,7 +118,7 @@ function generateSamplePhotos(count: number): Photo[] {
     mimeType: 'image/jpeg',
     isPublic: true,
     userId: '',
-    user: { id: '', name: '示例用户' },
+    user: { id: '', email: 'demo@example.com', name: '示例用户' },
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
   }));
