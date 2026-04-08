@@ -1,10 +1,14 @@
 {
-  "name": "photo-sharing-site-deploy",
+  "name": "photo-sharing-site",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "install": "cd app/frontend && npm install",
+    "dev": "cd app/frontend && npm run dev",
     "build": "cd app/frontend && npm run build"
+  },
+  "devDependencies": {
+    "vite": "^8.0.4",
+    "@vitejs/plugin-react": "^6.0.1"
   },
   "engines": {
     "node": ">=18.0.0"
