@@ -1,0 +1,29 @@
+{
+  "description": "AI模型配置示例",
+  "models": {
+    "primary": {
+      "name": "gpt-4",
+      "temperature": 0.2,
+      "max_tokens": 4000
+    },
+    "secondary": {
+      "name": "claude-3-opus",
+      "temperature": 0.1,
+      "max_tokens": 4096
+    }
+  },
+  "task_settings": {
+    "frontend": {
+      "temperature": 0.1,
+      "system_prompt": "你是一个经验丰富的前端工程师，擅长React、TypeScript和动画实现。"
+    },
+    "backend": {
+      "temperature": 0.1,
+      "system_prompt": "你是一个经验丰富的后端工程师，擅长Node.js、Express和数据库设计。"
+    },
+    "database": {
+      "temperature": 0.1,
+      "system_prompt": "你是一个数据库专家，擅长SQL数据库设计和优化。"
+    }
+  }
+}
