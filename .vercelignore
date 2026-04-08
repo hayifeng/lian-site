@@ -1,8 +1,0 @@
-# Ignore specific non-frontend directories
-app/backend
-app/database
-ai
-start.sh
-DEPLOY.md
-docker-compose.yml
-*.db
