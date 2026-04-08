@@ -111,6 +111,7 @@ function generateSamplePhotos(count: number): Photo[] {
   return Array.from({ length: count }, (_, i) => ({
     id: `sample-${i}`,
     title: `示例照片 ${i + 1}`,
+    filename: `sample_${i + 1}.jpg`,
     uploadPath: `https://picsum.photos/seed/sample${i + 1}/400/400`,
     originalName: `sample_${i + 1}.jpg`,
     fileSize: 0,
@@ -118,5 +119,7 @@ function generateSamplePhotos(count: number): Photo[] {
     isPublic: true,
     userId: '',
     user: { id: '', name: '示例用户' },
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
   }));
 }
