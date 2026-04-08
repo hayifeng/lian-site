@@ -1,0 +1,12 @@
+{
+  "name": "photo-sharing-site-deploy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install": "cd app/frontend && npm install",
+    "build": "cd app/frontend && npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

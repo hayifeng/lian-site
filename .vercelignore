@@ -1,0 +1,11 @@
+# Ignore backend, AI, and other non-frontend directories
+app/backend/
+app/database/
+ai/
+node_modules/
+*.db
+.env
+.DS_Store
+docker-compose.yml
+start.sh
+DEPLOY.md
